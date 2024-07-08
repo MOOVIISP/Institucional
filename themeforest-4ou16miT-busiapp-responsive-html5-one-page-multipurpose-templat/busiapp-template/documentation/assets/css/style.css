@@ -1,0 +1,147 @@
+/*
+-------------------------------------------------------------------------
+* Template Name    : tomillo - Multi Purpose Html5 Landing Page         *
+* Author           : ParExcellence                                      *
+* Version          : 1.0.0                                              *
+* Created          : Feb 2020                                           * 
+*------------------------------------------------------------------------
+*/
+/* ------------------------
+    Table of Contents
+
+  1.General
+  2.Helper class
+  3.Text color
+  4.Background color
+  5.Header
+  6.Navigation
+  7.Section Title
+  8.Table And Precode
+ 
+/* ------------------------
+    1.General
+------------------------*/
+
+body {font-family: "Source Sans Pro", sans-serif; font-weight: normal;letter-spacing: 0.3px;font-style: normal;font-size: 14px;line-height: 24px;color: #5c5c5c;overflow-x: hidden;}
+a, .btn, span { -webkit-transition: all 0.5s ease-in-out 0s; -moz-transition: all 0.5s ease-in-out 0s; -ms-transition: all 0.5s ease-in-out 0s; -o-transition: all 0.5s ease-in-out 0s;
+transition: all 0.5s ease-in-out 0s; }
+a:focus { text-decoration: none !important; }
+    a:focus, a:hover {
+        color: #235FCD;
+        text-decoration: none !important;
+    }
+a, button, input {
+    outline: medium none !important;
+    color: #235FCD;
+}
+
+
+h1, h2, h3, h4, h5, h6{font-weight:normal; margin-top: 0px; margin-bottom: 0px; text-transform: capitalize;}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
+h1 { font-size: 36px; font-style: normal; line-height: 50px; font-weight: 600; text-transform: capitalize; color: #ffffff;}
+h2 { font-size: 38px; font-style: normal; line-height: 50px; font-weight: 300; color: #02060b; text-transform: capitalize;}
+h3 { font-size: 26px; font-style: normal; line-height: 36px; }
+h4 { font-size: 20px; font-style: normal; text-transform: uppercase; margin-bottom: 10px; font-weight: 500; line-height: 26px; color: #02060b;}
+h5 { font-size: 16px; font-style: normal; line-height: 20px; font-weight: 500;}
+h6 { font-size: 16px; font-style: normal; line-height: 24px; }
+
+ul { margin: 0px; padding: 0px; }
+*::-moz-selection {
+    background: #235FCD;
+    color: #fff;
+    text-shadow: none;
+}
+::-moz-selection {
+    background: #235FCD;
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background: #235FCD;
+    color: #fff;
+    text-shadow: none;
+}
+
+/* ------------------------
+    2.Helper class
+------------------------*/
+.lead{font-weight: normal; font-size: 16px; line-height: 30px;}
+.o-hidden{overflow: hidden;}
+.img-center{display: inline-block !important; max-width: 100%;}
+.fa{line-height: inherit;}
+section{padding: 40px 0;}
+h2 span {
+    color: #235FCD;
+    font-weight: bold;
+}
+
+/* ------------------------
+    3.Text color
+------------------------*/
+.text-theme {
+    color: #235FCD;
+}
+.text-white{color:#ffffff;}
+
+/* ------------------------
+    4.Background color
+------------------------*/
+.dark-bg{background:#111313;}
+.theme-bg {
+    background: #235FCD;
+    background: linear-gradient(to right,#235FCD, #1C4CA3);
+}
+
+/* ------------------------
+    5.Header
+------------------------*/
+.site-header, .fullscreen, .banner{position: relative;} 
+.site-header + .fullscreen{margin-bottom: -85px; top:-85px;} 
+.site-header,.top-bar,header .container {position: relative; z-index: 99;}
+.header-transparent{background: transparent;}
+#header-wrap{padding: 20px; width: 100%; background: #f1f8fc}
+#header-wrap.fixed-header {position: fixed; padding: 15px 0; top:0; left:0; width: 100%; z-index: 999 !important; background: #ffffff; -webkit-box-shadow: 0px 0px 15px 0px rgba(72,73,121,0.15);
+-moz-box-shadow: 0px 0px 15px 0px rgba(72,73,121,0.15); box-shadow: 0px 0px 15px 0px rgba(72,73,121,0.15);}
+.logo img {height: 54px;}
+
+/* ------------------------
+    6.Navigation
+------------------------*/
+.navbar{padding: 0;}
+.navbar-nav li{margin: 0 20px;}
+.navbar-nav li:last-child{margin-right: 0;}
+.navbar-nav .nav-link {position: relative; padding: 0 !important; color: #02060b; font-size: 14px; font-weight: 500; text-transform: uppercase;}
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link:focus,
+    .navbar-nav .nav-item .nav-link.active {
+        color: #235FCD;
+        font-weight: 600;
+    }
+
+/* ------------------------
+    7.Section Title
+------------------------*/
+.section-title h3{position: relative; padding-left: 0px; margin-bottom: 25px; color: #02060b; line-height: inherit;font-weight:600;}
+
+
+/* ------------------------
+    8.Table And Precode
+------------------------*/
+.str, .Busiapp {
+    color: #235FCD;
+}
+.typ, .atn, .dec, .var {color: #FF512F;}
+.kwd, .line-ms .tag {
+    color: #235FCD;
+}
+.pln {color: #222533;}
+.overflow-auto {overflow: auto;}
+.pprint {background-color: #ffffff; padding: 15px; border-radius: 5px; box-shadow: 0px 0px 15px 0px rgba(72,73,121,0.15)}
+ol.line-ms {padding: 0;margin: 0;list-style-type: none;}
+ol.line-ms li {color: #bebec5; line-height: 18px;}
+table {border: 1px solid #e1e1e8; border-collapse: collapse; border-spacing: 0; width: 100%;}
+td {border-bottom: 1px solid #e1e1e8; border-right: 1px solid #e1e1e8; padding: 15px;}
+.table > tbody > tr > td, .cart-table.table > tbody > tr > th, .cart-table.table > tfoot > tr > td, .cart-table.table > tfoot > tr > th, .cart-table.table > thead > tr > td, .cart-table.table > thead > tr > th {
+  vertical-align: middle;}
+
+
