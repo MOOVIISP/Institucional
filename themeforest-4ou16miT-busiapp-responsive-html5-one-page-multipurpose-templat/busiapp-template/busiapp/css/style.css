@@ -1259,6 +1259,7 @@ hr {
     height: 45px;
 }
 
+
 .form-footer {
     border: 1px solid #ddd;
     border-top: 0;
@@ -1310,6 +1311,31 @@ hr {
     color: #1ACC8D !important;
     transform: rotateY(180deg);
 }
+
+.term-policy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    cursor: pointer;
+}
+
+.social-media{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.opening-hours{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin-top: 10px;
+}
+
 /*==========================
        17.RESPONSIVE
 ============================*/
