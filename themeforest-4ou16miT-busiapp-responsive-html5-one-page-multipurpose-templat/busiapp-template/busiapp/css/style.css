@@ -1336,6 +1336,121 @@ flex-direction: column;
     margin-top: 10px;
 }
 
+.brasil-id-icons{
+    font-size: 60px;
+}
+
+.img-sp{
+    width: 150px;
+}
+
+#circles{
+    font-size: 35px;
+    color: #367DC1;
+}
+
+.inspections{
+    position: relative;
+}
+
+.inspections-points{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    top: -80px;
+
+}
+.inspections-points div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contract-img{
+    height: 150px;
+    background-color: #778899;
+    padding: 5px;
+}
+
+.img-term-content{
+    background-color: #F8F9FA;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-process{
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+
+.inside-circle {
+    border: 2px solid gray;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+  }
+  
+  .mdi-arrow-down {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+
+.process-workflow{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px; 
+}
+
+.img-default-size{
+    height: 90px;
+    margin: 10px;
+}
+
+.antenna-rfid{
+    height: 40px;
+}
+
+.icon-rfid {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto;
+  }
+  
+  .workflow-paragraph {
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+  }
+  
+
+  .text-center {
+    margin-bottom: 10px;
+  }
+
+  .img-costom{
+    width: 100px;
+  }
+  
+
 /*==========================
        17.RESPONSIVE
 ============================*/
