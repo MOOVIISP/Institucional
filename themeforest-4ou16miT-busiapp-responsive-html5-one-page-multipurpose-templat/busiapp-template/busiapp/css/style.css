@@ -1451,13 +1451,19 @@ flex-direction: column;
   }
 
   .logotipo{
+      max-width: 70px;
     width: 70px;
 }
 
-.logotipo-collapse{
-    
-    width: 70px;
+  
+.nav-link {
+    white-space: nowrap; 
   }
+  
+
+
+.img-fluid-logotipo{
+}
   
 
 /*==========================
