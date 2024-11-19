@@ -256,8 +256,8 @@ button:focus {
     position: absolute;
     top: 0;
     left: 0;
-width: 500px;
-height: 200px;
+    width: 500px;
+    height: 200px;
     z-index: 0;
     background-image: url(../images/icons-ult/banner-trabalhe-conosco.png);
     background-size: cover; 
@@ -273,6 +273,19 @@ height: 200px;
     width: 100%;
     z-index: 0;
     background-image: url(../images/icons-ult/banner-principal.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.banner-letpp::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-image: url(../images/icons-ult/banner-letpp.png);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
