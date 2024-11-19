@@ -251,6 +251,7 @@ button:focus {
     position: relative;
 }
 
+
 .banner-sobre::after{
     content: "";
     position: absolute;
@@ -259,7 +260,7 @@ button:focus {
     height: 100%;
     width: 100%;
     z-index: 0;
-    background-image: url(../images/icons-ult/sobre-banner.jpg);
+    background-image: url(../images/icons-ult/banner-sobre1.png);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -380,7 +381,7 @@ button:focus {
         position: absolute;
         bottom: 0;
         left: 0;
-        background-color: #1ACC8D;
+        background-color: #4AB5E3;
         height: 2px;
         width: 0;
         opacity: 0;
@@ -412,7 +413,7 @@ button:focus {
 .custom-nav .navbar-nav li.active a,
 .custom-nav .navbar-nav li:hover a,
 .custom-nav .navbar-nav li:active a {
-    color: #1ACC8D !important;
+    color: #4AB5E3 !important;
 }
 
 .custom-nav.sticky-header .navbar-nav li.active a,
@@ -1586,6 +1587,45 @@ flex-direction: column;
   }
 }
 
+.nav-item.dropdown {
+    position: relative;
+}
+
+.nav-item.dropdown .submenu {
+    display: none; 
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: #fff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    z-index: 1000; 
+}
+
+.nav-item.dropdown:hover .submenu {
+    display: block; 
+}
+
+.nav-item.dropdown .submenu .nav-link {
+    color: #333; 
+    padding: 8px 16px; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
+}
+
+.nav-item.dropdown .submenu .nav-link:hover {
+    background-color: #f0f0f0; 
+}
+
+
+
+.img-trucks{
+    width: 230px;
+}
+
+.img-truck-solucao{
+    height: 180px;
+    width: 350px;
+}
 
 /*==========================
        17.RESPONSIVE
