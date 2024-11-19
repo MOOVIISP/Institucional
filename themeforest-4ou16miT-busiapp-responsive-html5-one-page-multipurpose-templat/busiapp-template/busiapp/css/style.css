@@ -192,12 +192,12 @@ button:focus {
 
 .theme-color,
 .navbar-toggler {
-    color: #1C4CA3 !important;
+    color: #4AB5E3 !important;
 }
 
-.green-color {
+/* .green-color {
     color: #1ACC8D;
-}
+} */
 
 .theme-bg {
     background-color: #1C4CA3;
@@ -206,14 +206,14 @@ button:focus {
 .contact_btn .btn,
 .theme-btn {
     transition: all ease 1s;
-    background-image: linear-gradient(to right, transparent, transparent,#1ACC8D, #1ACC8D);
+    background-image: linear-gradient(to right, transparent, transparent,#4AB5E3, #4AB5E3);
     background-size: 300%;
     background-position: 0 0;
 }
 
 .custom-nav.sticky-header .contact_btn .btn {
-    background-image: linear-gradient(to right,#235FCD, #1C4CA3, #1ACC8D, #1ACC8D);
-    border: 2px solid #235FCD;
+    background-image: linear-gradient(to right,#4AB5E3, #1C4CA3, #4AB5E3,#4AB5E3);
+    border: 2px solid #4AB5E3;
 }
 
     .contact_btn .btn:hover,
@@ -221,12 +221,12 @@ button:focus {
     .custom-nav.sticky-header .contact_btn .btn:hover {
         background-position: 100% 0;
         color: #fff;
-        border: 2px solid #1ACC8D;
+        border: 2px solid #4AB5E3;
     }
 
 .theme-dark-btn {
     transition: all ease 1s;
-    background-image: linear-gradient(to left, #1ACC8D, #1ACC8D,#235FCD, #1C4CA3);
+    background-image: linear-gradient(to left, #4AB5E3, #4AB5E3,#235FCD, #1C4CA3);
     background-size: 300%;
     background-position: 0 0;
     border: 1px solid #1C4CA3;
@@ -396,6 +396,7 @@ button:focus {
         opacity: 1;
         left: 0;
     }
+    
 
     .custom-nav .navbar-nav .submenu li a::before,
     .custom-nav .navbar-nav .submenu li.active a::before {
@@ -410,6 +411,10 @@ button:focus {
     font-size: 28px;
 }
 
+.adjust-nav{
+    max-width: 1500px;
+}
+
 .custom-nav .navbar-nav li.active a,
 .custom-nav .navbar-nav li:hover a,
 .custom-nav .navbar-nav li:active a {
@@ -419,14 +424,14 @@ button:focus {
 .custom-nav.sticky-header .navbar-nav li.active a,
 .custom-nav.sticky-header .navbar-nav li:hover a,
 .custom-nav.sticky-header .navbar-nav li:active a {
-    color: #1ACC8D !important;
+    color: #4AB5E3 !important;
 }
 
 .nav .open > a,
 .nav .open > a:focus,
 .nav .open > a:hover {
     background-color: transparent;
-    border-color: #1C4CA3;
+    border-color: #4AB5E3;
 }
 
 .brand-logo .logo-light {
@@ -480,11 +485,11 @@ button:focus {
 }
 
 .custom-nav.sticky-header .submenu::after {
-    border-bottom: 5px solid #1ACC8D;
+    border-bottom: 5px solid #4AB5E3;
 }
 
 .custom-nav.sticky-header .nav-bar.submenu {
-    border: 1px solid #1ACC8D;
+    border: 1px solid #4AB5E3;
 }
 
 .custom-nav .nav-bar.submenu li.nav-item .nav-link {
@@ -496,7 +501,7 @@ button:focus {
 }
 
 .custom-nav .nav-bar.submenu li.nav-item:hover .nav-link {
-    background-color: #1ACC8D;
+    background-color: #4AB5E3;
     margin: 0;
     color: #fff !important;
 }
@@ -584,7 +589,7 @@ button:focus {
 
 hr {
     border: 2px;
-    border-top: 2px solid #1ACC8D;
+    border-top: 2px solid #4AB5E3;
     width: 60px;
     margin: 0 10px;
     height: 7px;
@@ -1221,7 +1226,7 @@ hr {
 }
 .contact-form-btn {
     min-width: 140px;
-    background-image: linear-gradient(to right,#1ACC8D, #1ACC8D, #235FCD, #1C4CA3) !important;
+    background-image: linear-gradient(to right,#4AB5E3, #4AB5E3, #235FCD, #1C4CA3) !important;
 }
 
     .contact-form-btn:hover {
@@ -1324,7 +1329,7 @@ hr {
 ============================*/
 .section.footer {
     padding-top: 120px;
-    background-image: linear-gradient(to right,#235FCD, #1C4CA3);
+    background-image: linear-gradient(to right,#367DBF, #367DBF);
     background-position: 100% 0;
     background-size: 300%;
 }
