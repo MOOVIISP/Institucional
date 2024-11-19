@@ -1449,6 +1449,15 @@ flex-direction: column;
   .img-costom{
     width: 100px;
   }
+
+  .logotipo{
+    width: 70px;
+}
+
+.logotipo-collapse{
+    
+    width: 70px;
+  }
   
 
 /*==========================
