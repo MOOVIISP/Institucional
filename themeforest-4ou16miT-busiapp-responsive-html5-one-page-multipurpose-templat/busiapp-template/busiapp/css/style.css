@@ -251,16 +251,62 @@ button:focus {
     position: relative;
 }
 
-    .inner-header-bg::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        z-index: 0;
-        background-color: rgba(28, 76, 163, 0.9);
-    }
+.banner-sobre::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-image: url(../images/icons-ult/sobre-banner.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+/* .banner-brasil-id{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-image: url(../images/icons-ult/brasil-id-banner.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+} */
+
+.banner-tecnologia::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-image: url(../images/icons-ult/tecnologia-banner.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.inner-header-bg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-color: rgba(28, 76, 163, 0.9);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
 
 .section-breadcrumb {
     position: relative;
