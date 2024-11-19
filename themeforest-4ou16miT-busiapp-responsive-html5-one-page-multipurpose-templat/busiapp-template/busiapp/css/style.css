@@ -32,7 +32,7 @@
 /*======================
         1.BASIC
 ========================*/
-
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
@@ -1320,12 +1320,19 @@ hr {
     align-self: center;
     cursor: pointer;
 }
+.term-policy p a{
+   color: #fff;
+}
 
 .social-media{
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+}
+
+.social-media-content{
+    display: flex;
 }
 
 .opening-hours{
@@ -1455,16 +1462,84 @@ flex-direction: column;
     width: 70px;
 }
 
-  
 .nav-link {
     white-space: nowrap; 
   }
   
-
-
-.img-fluid-logotipo{
+ @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
+.design-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 100px 0;
+  font-family: Jost;
 }
-  
+
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-content {
+  padding: 20px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+          box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+  border-radius: 5px;
+  color: #1f1f1f;
+  padding: 1.75rem;
+  transition: 0.4s ease;
+  font-weight: bold;
+  overflow-wrap: break-word !important;
+  margin: 1rem;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.timeline-component {
+  margin: 0px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+  .timeline-middle {
+    position: relative;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 48%);
+    width: 3px;
+    height: 100%;
+  }
+  .main-middle {
+    opacity: 0;
+  }
+  .timeline-circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+   background-color: #367DBF;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
 
 /*==========================
        17.RESPONSIVE
@@ -1903,9 +1978,9 @@ flex-direction: column;
         margin-right: 5px !important;
     }
 
-    .custom-nav .navbar-brand.brand-logo img {
+    /* .custom-nav .navbar-brand.brand-logo img {
         height: 15px;
-    }
+    } */
 
     .contact_btn .btn, .theme-btn, .theme-dark-btn {
         padding: 0 15px;
