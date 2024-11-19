@@ -133,7 +133,7 @@ button:focus {
     display: none;
     right: 20px;
     z-index: 99;
-    background-image: linear-gradient(to right, #1ACC8D, #1ACC8D,#235FCD, #1C4CA3);
+    background-image: linear-gradient(to right, #367DBF, #367DBF,#4AB5E3, #4AB5E3);
     background-size: 300%;
     background-position: 0 0;
 }
@@ -192,7 +192,7 @@ button:focus {
 
 .theme-color,
 .navbar-toggler {
-    color: #4AB5E3 !important;
+    color: #367DBF !important;
 }
 
 /* .green-color {
@@ -251,6 +251,32 @@ button:focus {
     position: relative;
 }
 
+.banner-trabalhe-conosco::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+width: 500px;
+height: 200px;
+    z-index: 0;
+    background-image: url(../images/icons-ult/banner-trabalhe-conosco.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}  
+.banner-principal::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-image: url(../images/icons-ult/banner-principal.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
 
 .banner-sobre::after{
     content: "";
@@ -589,7 +615,7 @@ button:focus {
 
 hr {
     border: 2px;
-    border-top: 2px solid #4AB5E3;
+    border-top: 2px solid #367DBF;
     width: 60px;
     margin: 0 10px;
     height: 7px;
@@ -637,6 +663,8 @@ hr {
     height: 75px;
     width: 75px;
 }
+
+
 
 .text-lg-left {
     text-align: left;
@@ -772,8 +800,13 @@ hr {
     text-align: center;
 }
 
+.test{
+    width: 200px;
+    height: 200px;
+}
+
 .owl-dot.active {
-    background: #1ACC8D !important;
+    background: #2F5BA9 !important;
 }
 
 .owl-dot {
@@ -1273,7 +1306,7 @@ hr {
 }
 
 .contact-item:hover .icon-block {
-    background-color: #1ACC8D !important;
+    background-color: #4AB5E3 !important;
 }
 
     .contact-item:hover .icon-block .icon {
@@ -1288,7 +1321,7 @@ hr {
 
 .login-icon {
     padding: 15px 15px;
-    border-left: 2px solid #1ACC8D;
+    border-left: 2px solid #4AB5E3;
     position: absolute;
     font-size: 18px;
     border-radius: 4px 0px 0 4px;
@@ -1329,7 +1362,7 @@ hr {
 ============================*/
 .section.footer {
     padding-top: 120px;
-    background-image: linear-gradient(to right,#367DBF, #367DBF);
+    background-image: linear-gradient(to right,#2F5BA9, #2F5BA9);
     background-position: 100% 0;
     background-size: 300%;
 }
@@ -1340,7 +1373,7 @@ hr {
     }
 
 .icn-block:hover .icon {
-    color: #1ACC8D !important;
+    color: #4AB5E3 !important;
 }
 
 .footer::after {
@@ -1478,6 +1511,8 @@ flex-direction: column;
     flex-direction: column;
     margin-bottom: 20px; 
 }
+
+
 
 .img-default-size{
     height: 90px;
