@@ -22,6 +22,11 @@
     <link rel="stylesheet" href="css/animate.css">
     <!-- Custom  CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+      <!-- Recapchat -->
+   
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </head>
 
 <body>
@@ -172,23 +177,28 @@
                         </div>
                     </div>
                 </div>
-                <form class="common-input-form mt-3">
+                <form class="common-input-form mt-3" onsubmit="return validateForm();">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input name="name" id="name" type="text" class="form-control border-0" placeholder="Seu Nome">
+                              <label for="name">Nome <span style="color: red;">*</span></label>
+                                <input name="name" id="name" type="text" class="form-control border-0" placeholder="Seu Nome" required>
                             </div>
                             <div class="form-group">
-                                <input name="email" id="email" type="email" class="form-control border-0" placeholder="Seu Email">
+                              <label for="name">Email <span style="color: red;">*</span></label>
+                                <input name="email" id="email" type="email" class="form-control border-0" placeholder="Seu Email" required>
                             </div>
                             <div class="form-group">
-                                <input name="subject" id="subject" type="text" class="form-control border-0" placeholder="Assunto">
+                              <label for="name">Assunto <span style="color: red;">*</span></label>
+                                <input name="subject" id="subject" type="text" class="form-control border-0" placeholder="Assunto" required>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <textarea name="comments" id="comments" rows="2" class="form-control border-0" placeholder="Mensagem"></textarea>
+                              <label for="name">Mensagem <span style="color: red;">*</span></label>
+                                <textarea name="comments" id="comments" rows="2" class="form-control border-0" placeholder="Mensagem" required></textarea>
                             </div>
+                            <div class="g-recaptcha" data-sitekey="6LdJ7YUqAAAAAMkJQEdwSWGjNTDuPYDThI2cq7Iy"></div>
                         </div>
                     </div>
                     <div class="d-flex justify-content-end">
