@@ -1418,7 +1418,30 @@ hr {
     background-image: linear-gradient(to right,#2F5BA9, #2F5BA9);
     background-position: 100% 0;
     background-size: 300%;
+    position: relative;
+    overflow: hidden;
 }
+
+.grafismo {
+    position: absolute;
+    right: -120px;
+    top: -50px;
+    opacity: 0.4;
+  }
+  
+ 
+  
+  @media (max-width: 767px) {
+    .grafismo {
+      position: relative;
+      right: 0;
+      top: 0;
+      opacity: 0.6;
+    }
+  
+    
+  }
+  
 
     .section.footer li:hover a {
         transform: scale(1.1);
@@ -1744,6 +1767,19 @@ flex-direction: column;
         flex-basis: 20%;
         max-width: 20%;
     }
+}
+
+@media (max-width: 1750px){
+    .grafismo{
+        right: -200px;
+    }
+
+}
+@media (max-width: 1580px){
+    .grafismo{
+        display: none;
+    }
+
 }
 
 @media (max-width: 1199px) {
