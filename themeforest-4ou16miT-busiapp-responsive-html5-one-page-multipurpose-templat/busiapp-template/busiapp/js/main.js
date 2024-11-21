@@ -273,45 +273,44 @@ $('#number4').jQuerySimpleCounter({
 
 const apiUrl = 'http://localhost:3000/send-email';
 
+function validateForm(event) {
+    event.preventDefault();
 
-function validateForm() {
-   
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const subject = document.getElementById('subject').value;
     const message = document.getElementById('comments').value;
 
     const sendEmail = {
-        name:name,
-        email:email,
-        subject:subject,
-        message
-    }
+        name: name,
+        email: email,
+        subject: subject,
+        message: message
+    };
 
     const recaptchaResponse = grecaptcha.getResponse();
     if (recaptchaResponse.length === 0) {
-      alert('Por favor, complete o reCAPTCHA.');
-      return false;  
+        alert('Por favor, complete o reCAPTCHA.');
+        return false;
     }
 
     fetch(apiUrl, {
-        method: 'POST', 
+        method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
+            'Content-Type': 'application/json',
         },
         body: JSON.stringify(sendEmail),
-      })
-        .then(response => response.json()) 
-        .then(data => {
-          console.log('Resposta da API:', data);
-        })
-        .catch(error => {
-          console.error('Erro ao enviar os dados:', error);
-        });
-    
-    alert('Formulário enviado com sucesso!');
-    return true; 
-  }
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('Resposta da API:', data);
+        alert('Formulário enviado com sucesso!');
+    })
+    .catch(error => {
+        console.error('Erro ao enviar os dados:', error);
+    });
+}
+
 
 (function ($) {
     var length = $('.wow').length;
