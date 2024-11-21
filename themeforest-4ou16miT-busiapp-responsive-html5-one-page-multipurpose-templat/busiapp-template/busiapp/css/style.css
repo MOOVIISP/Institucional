@@ -1727,8 +1727,11 @@ flex-direction: column;
 
 .img-horus{
     width: 200px;
-    
-    
+}
+
+.deafault-tec-img{
+    width: 200px;
+    height: 120px;
 }
 
 /*==========================
