@@ -1720,6 +1720,17 @@ flex-direction: column;
     width: 350px;
 }
 
+.img-projetos{
+    width: 200px;
+    border-radius:10px;
+}
+
+.img-horus{
+    width: 200px;
+    
+    
+}
+
 /*==========================
        17.RESPONSIVE
 ============================*/
