@@ -1732,8 +1732,6 @@ flex-direction: column;
     background-color: #f0f0f0; 
 }
 
-
-
 .img-trucks{
     width: 230px;
 }
@@ -1744,13 +1742,11 @@ flex-direction: column;
 }
 
 .img-projetos{
-    width: 200px;
+    width: 220px;
+    height: 160px;
     border-radius:10px;
 }
 
-.img-horus{
-    width: 200px;
-}
 
 .deafault-tec-img{
     width: 200px;
