@@ -264,6 +264,21 @@ button:focus {
     background-position: center; 
     background-repeat: no-repeat; 
 }  
+
+.banner-horus:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 200px;
+    z-index: 0;
+    background-image: url(../images/icons-ult/banner-horus.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}  
+
 .banner-principal::after{
     content: "";
     position: absolute;
@@ -1625,11 +1640,15 @@ flex-direction: column;
     height: 40px;
 }
 
-.icon-rfid {
+.icon-default {
     display: block; 
     margin: 0 auto; 
     max-width: 100%; 
-    height: auto;
+    width: 100px;
+  }
+.icon-tecs {
+    width: 100px;
+    height: 120px;
   }
   
   .workflow-paragraph {
@@ -1775,8 +1794,19 @@ flex-direction: column;
 
 
 .deafault-tec-img{
-    width: 200px;
+    width: 140px;
     height: 120px;
+}
+
+.costum-img-icon{
+    width: 150px;
+}
+
+.img-rodovia{
+    width: 220px;
+}
+.img-navio{
+    width: 220px;
 }
 
 .card-overflow{
