@@ -940,7 +940,7 @@ hr {
 }
 
 .owl-carousel .owl-item img {
-    width: auto;
+    width: 150px;
     margin: 0 auto;
 }
 /*==========================
@@ -1756,6 +1756,29 @@ flex-direction: column;
 .card-overflow{
     min-height: 250px;
 }
+.arrow {
+    width: 100%;
+    max-width: 550px;
+    height: 2px;
+    background-color: #333;
+    border: none;
+    position: relative;
+  }
+  
+  .arrow::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) rotate(45deg);
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #333;
+    border-top: 2px solid #333;
+  }
+
+
+  
 
 /*==========================
        17.RESPONSIVE
