@@ -323,11 +323,4 @@ function validateForm(event) {
         wow.init();
     }
 })(jQuery);
-const container = document.getElementById("circles");
-const repeatCount = 20; 
 
-for (let i = 0; i < repeatCount; i++) {
-  const span = document.createElement("span");
-  span.className = "mdi mdi-circle";
-  container.appendChild(span);
-}
