@@ -331,7 +331,7 @@ button:focus {
     background-repeat: no-repeat; 
 }
 
-/* .banner-brasil-id{
+.banner-brasil-id::after{
     content: "";
     position: absolute;
     top: 0;
@@ -339,11 +339,11 @@ button:focus {
     height: 100%;
     width: 100%;
     z-index: 0;
-    background-image: url(../images/icons-ult/brasil-id-banner.png);
+    background-image: url(../images/icons-ult/banner-brasil-id.jpg);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
-} */
+}
 
 .banner-tecnologia::after{
     content: "";
@@ -368,6 +368,32 @@ button:focus {
     width: 100%;
     z-index: 0;
     background-image: url(../images/icons-ult/banner-evolucao.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.banner-solucao::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-image: url(../images/icons-ult/banner-solucao.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.banner-contate-nos::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-image: url(../images/icons-ult/banner-contate-nos.jpg);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
