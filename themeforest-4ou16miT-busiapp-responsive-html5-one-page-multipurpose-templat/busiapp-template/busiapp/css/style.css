@@ -1629,12 +1629,18 @@ flex-direction: column;
     margin-bottom: 20px; 
 }
 
-
+.card-body{
+    min-height: 400px;
+}
 
 .img-default-size{
     height: 90px;
     margin: 10px;
 }
+
+/* .overview{
+    flex-direction: column;
+} */
 
 .antenna-rfid{
     height: 40px;
@@ -1795,11 +1801,12 @@ flex-direction: column;
 
 .deafault-tec-img{
     width: 140px;
-    height: 120px;
+    height: 150px;
 }
 
 .costum-img-icon{
-    width: 150px;
+    width: 190px;
+    
 }
 
 .img-rodovia{
@@ -1834,12 +1841,25 @@ flex-direction: column;
   }
 
 
+  .destaque{
+    font-size: 20px;
+  }
+
   
 
 /*==========================
        17.RESPONSIVE
 ============================*/
+
+@media only screen and (max-width: 1200px){
+
+    .overview{
+        flex-direction: column;
+    }
+}
+
 @media only screen and (min-width: 1200px) {
+
     .grid-5 .col-lg-3 {
         -webkit-flex-basis: 20%;
         -ms-flex-preferred-size: 20%;
