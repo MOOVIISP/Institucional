@@ -1753,6 +1753,10 @@ flex-direction: column;
     height: 120px;
 }
 
+.card-overflow{
+    min-height: 250px;
+}
+
 /*==========================
        17.RESPONSIVE
 ============================*/
