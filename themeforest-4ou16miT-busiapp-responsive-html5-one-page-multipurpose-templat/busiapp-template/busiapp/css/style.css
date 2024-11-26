@@ -1633,6 +1633,10 @@ flex-direction: column;
     min-height: 400px;
 }
 
+.card-portos{
+    min-height: 390px;
+}
+
 .img-default-size{
     height: 90px;
     margin: 10px;
@@ -1800,7 +1804,7 @@ flex-direction: column;
 
 
 .deafault-tec-img{
-    width: 140px;
+    width: 150px;
     height: 150px;
 }
 
@@ -1842,7 +1846,11 @@ flex-direction: column;
 
 
   .destaque{
-    font-size: 20px;
+    font-size: 22px;
+  }
+
+  .alimentos{
+  min-height: 720px;
   }
 
   
@@ -1870,18 +1878,28 @@ flex-direction: column;
 
 @media (max-width: 1750px){
     .grafismo{
-        right: -200px;
+        right: -50px;
     }
 
 }
 @media (max-width: 1580px){
     .grafismo{
-        display: none;
+        right: -280px;
+
+    }
+
+}
+@media (max-width: 1450px){
+    .grafismo{
+        right: -360px;
     }
 
 }
 
 @media (max-width: 1199px) {
+    .grafismo{
+        display: none;
+    }
     .container {
         max-width: 99%;
     }
