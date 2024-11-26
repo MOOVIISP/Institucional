@@ -264,6 +264,19 @@ button:focus {
     background-position: center; 
     background-repeat: no-repeat; 
 }  
+.banner-politica::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 200px;
+    z-index: 0;
+    background-image: url(../images/icons-ult/banner-politica.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}  
 
 .banner-horus:after{
     content: "";
@@ -1634,7 +1647,7 @@ flex-direction: column;
 }
 
 .card-portos{
-    min-height: 390px;
+    min-height: 440px;
 }
 
 .img-default-size{
@@ -1846,13 +1859,27 @@ flex-direction: column;
 
 
   .destaque{
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .alimentos{
   min-height: 720px;
   }
 
+  .line-politica{
+    width: 100%; 
+    height: 2px; 
+    background-color: #A0A0A0; 
+    border: none;
+    margin: 40px auto; 
+  }
+  .line-politica-break{
+    width: 70%; 
+    height: 2px; 
+    background-color: #A0A0A0; 
+    border: none;
+    margin: 40px auto; 
+  }
   
 
 /*==========================
