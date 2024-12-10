@@ -1939,7 +1939,15 @@ flex-direction: column;
     line-height: 1.5; 
     letter-spacing: 0.03em; 
   }
+
+  .apoio-vertical-sobre{
+    background-image: url(../images//grafico-apoio-vertical.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
   
+
 
 /*==========================
        17.RESPONSIVE
