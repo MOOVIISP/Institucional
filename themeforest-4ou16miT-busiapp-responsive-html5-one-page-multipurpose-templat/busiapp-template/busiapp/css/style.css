@@ -1940,15 +1940,86 @@ flex-direction: column;
     letter-spacing: 0.03em; 
   }
 
-  .apoio-vertical-sobre{
-    background-image: url(../images//grafico-apoio-vertical.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+
+  .grafico-vertical {
+    position: absolute;
+    left: -20px;
+    top: 10px;
+    max-width: 100%;
   }
-  
+.grafico-vertical-who-we-are {
+    position: absolute;
+    left: -20px;
+    max-width: 100%;
+}
+
+.grafico-vertical-parceiros {
+    position: absolute;
+    left: -20px;
+    max-width: 100%;
+}
+.grafico-vertical-alimentos {
+    position: absolute;
+    left: -20px;
+    max-width: 100%;
+}
+
+.section-with-grafico-vertical {
+    height: 600px;
+}
+
+.text-about-moovii {
+    margin-top: 110px !important;
+}
+
+.text-who-we-are-moovii {
+    margin-top: 210px !important;
+}
+
+.text-parceiros {
+    margin-top: 210px !important;
+}
+.text-alimentos {
+    margin-top: 210px !important;
+}
+
+.grafico-vertical-horus{
+    position: absolute;
+    left: -20px;
+    max-width: 100%;
+}
+
+.title-responsive {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .grafico-vertical {
+        display: none;
+    }
+
+    .grafico-vertical-parceiros {
+        display: none;
+    }
+
+    .grafico-vertical-who-we-are {
+        display: none;
+
+    }
+    .grafico-vertical-alimentos{
+        display: none;
+    }
+    .grafico-vertical-horus{
+        display: none;
+
+    }
+
+    .title-responsive {
+        display: block;
+    }
 
 
+}
 /*==========================
        17.RESPONSIVE
 ============================*/
