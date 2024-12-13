@@ -1692,6 +1692,7 @@ flex-direction: column;
     margin: 10px;
 }
 
+
 /* .overview{
     flex-direction: column;
 } */
@@ -1940,84 +1941,90 @@ flex-direction: column;
     letter-spacing: 0.03em; 
   }
 
+.grafico-vertical-horus,
+.grafico-vertical-rfid,
+.grafico-vertical,
+.grafico-vertical-trabalhe,
+.grafico-vertical-who-we-are ,
+.grafico-vertical-brasilid,
+.grafico-vertical-parceiros,
+.grafico-vertical-alimentos,
+.grafico-vertical-letpp,
+.grafico-vertical-lora{
+    position: absolute;
+    left: -20px;
+    max-width: 100%;
+}
 
-  .grafico-vertical {
-    position: absolute;
-    left: -20px;
-    top: 10px;
-    max-width: 100%;
-  }
-.grafico-vertical-who-we-are {
-    position: absolute;
-    left: -20px;
-    max-width: 100%;
-}
-
-.grafico-vertical-parceiros {
-    position: absolute;
-    left: -20px;
-    max-width: 100%;
-}
-.grafico-vertical-alimentos {
-    position: absolute;
-    left: -20px;
-    max-width: 100%;
-}
 
 .section-with-grafico-vertical {
+    height: auto;
+}
+
+.section-with-grafico-vertical-horus{
     height: 600px;
 }
 
-.text-about-moovii {
-    margin-top: 110px !important;
-}
-
-.text-who-we-are-moovii {
+.text-about-moovii ,
+.text-who-we-are-moovii ,
+.text-lora,
+.text-parceiros ,
+.text-alimentos ,
+.text-horus,
+.text-brasilid,
+.text-trabalhe,
+.text-rfid{
     margin-top: 210px !important;
 }
 
-.text-parceiros {
-    margin-top: 210px !important;
-}
-.text-alimentos {
-    margin-top: 210px !important;
-}
-
-.grafico-vertical-horus{
-    position: absolute;
-    left: -20px;
-    max-width: 100%;
-}
 
 .title-responsive {
     display: none;
 }
 
+@media (min-width: 1400px) {
+    .section-full {
+        height: 100dvh;
+    }
+    .text-about-moovii{
+        margin-top: 210px !important;
+    }
+    .text-parceiros,
+    .text-who-we-are-moovii,
+    .text-lora,
+    .text-brasilid,
+    .text-horus,
+    .text-trabalhe,
+    .text-rfid{
+        margin-top: 300px !important;
+    }
+    
+    
+}
+
+
+
+
 @media (max-width: 992px) {
-    .grafico-vertical {
+    .grafico-vertical,
+    .grafico-vertical-parceiros,
+    .grafico-vertical-who-we-are ,
+    .grafico-vertical-brasilid ,
+    .grafico-vertical-letpp ,
+    .grafico-vertical-trabalhe,
+    .grafico-vertical-alimentos,
+    .grafico-vertical-horus,
+    .grafico-vertical-rfid{
         display: none;
-    }
-
-    .grafico-vertical-parceiros {
-        display: none;
-    }
-
-    .grafico-vertical-who-we-are {
-        display: none;
-
-    }
-    .grafico-vertical-alimentos{
-        display: none;
-    }
-    .grafico-vertical-horus{
-        display: none;
-
     }
 
     .title-responsive {
         display: block;
     }
-
+.section-with-grafico-vertical,
+.section-with-grafico-vertical-horus {
+    height: auto;
+    }
 
 }
 /*==========================
