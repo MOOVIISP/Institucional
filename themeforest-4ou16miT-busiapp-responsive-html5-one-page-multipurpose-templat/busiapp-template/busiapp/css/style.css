@@ -1940,7 +1940,20 @@ flex-direction: column;
     line-height: 1.5; 
     letter-spacing: 0.03em; 
   }
+/* 
+  .curved-end-section {
+    background-color: #5b91ff;
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 0 100%);
+    padding: 5rem 0;
+    margin-left: 20px;
+    color: #fff;
+  }
 
+  @media (max-width: 768px) {
+    .curved-end-section {
+      padding: 3rem 1rem;
+    }
+  } */
 .grafico-vertical-horus,
 .grafico-vertical-rfid,
 .grafico-vertical,
