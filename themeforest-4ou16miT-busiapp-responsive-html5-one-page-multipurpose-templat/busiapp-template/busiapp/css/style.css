@@ -68,9 +68,9 @@ h2 {
 
 h3 {
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
-    font-size: 18.7px;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.06em;
     color: #000
@@ -243,7 +243,7 @@ button:focus {
 .contact_btn .btn,
 .theme-btn {
     transition: all ease 1s;
-    background-image: linear-gradient(to right, transparent, transparent, #4AB5E3, #4AB5E3);
+    background-image: linear-gradient(to right, transparent, transparent, #007bff, #007bff);
     background-size: 300%;
     background-position: 0 0;
 }
@@ -559,7 +559,7 @@ button:focus {
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: #4AB5E3;
+    background-color: #007bff;
     height: 2px;
     width: 0;
     opacity: 0;
@@ -596,20 +596,20 @@ button:focus {
 .custom-nav .navbar-nav li.active a,
 .custom-nav .navbar-nav li:hover a,
 .custom-nav .navbar-nav li:active a {
-    color: #4AB5E3 !important;
+    color: #007bff !important;
 }
 
 .custom-nav.sticky-header .navbar-nav li.active a,
 .custom-nav.sticky-header .navbar-nav li:hover a,
 .custom-nav.sticky-header .navbar-nav li:active a {
-    color: #4AB5E3 !important;
+    color: #007bff !important;
 }
 
 .nav .open>a,
 .nav .open>a:focus,
 .nav .open>a:hover {
     background-color: transparent;
-    border-color: #4AB5E3;
+    border-color: #007bff;
 }
 
 .brand-logo .logo-light {
@@ -663,11 +663,11 @@ button:focus {
 }
 
 .custom-nav.sticky-header .submenu::after {
-    border-bottom: 5px solid #4AB5E3;
+    border-bottom: 5px solid #007bff;
 }
 
 .custom-nav.sticky-header .nav-bar.submenu {
-    border: 1px solid #4AB5E3;
+    border: 1px solid #007bff;
 }
 
 .custom-nav .nav-bar.submenu li.nav-item .nav-link {
@@ -679,7 +679,7 @@ button:focus {
 }
 
 .custom-nav .nav-bar.submenu li.nav-item:hover .nav-link {
-    background-color: #4AB5E3;
+    background-color:#007bff;
     margin: 0;
     color: #fff !important;
 }
@@ -869,7 +869,7 @@ hr {
 }
 
 .contact-item:hover .icon-block {
-    background-color: #4AB5E3 !important;
+    background-color: #3A58A2 !important;
 }
 
 .contact-item:hover .icon-block .icon {
@@ -1371,8 +1371,34 @@ strong {
     font-size: 17px;
     line-height: 1.5;
     letter-spacing: 0.03em;
+    font-size: inherit;
 }
 
+.owl-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -50px;
+    text-align: center;
+}
+
+.owl-dot.active {
+    background: #1C4CA3 !important;
+}
+
+.owl-dot {
+    background: #CCCCCC !important;
+    height: 12px;
+    width: 12px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+.team-slider .border.bg-white:hover {
+    border: 1px solid #1C4CA3 !important;
+}
 
 
 .title-brasil-id {
@@ -1427,6 +1453,7 @@ strong {
     display: none;
 }
 
+
 @media (min-width: 1400px) {
     .section-full {
         height: 100dvh;
@@ -1480,6 +1507,33 @@ strong {
         display: none;
     }
 
+    .inner-header-bg,
+    .banner-sobre {
+        display: none;
+    }
+
+    .text-about-moovii,
+    .text-who-we-are-moovii,
+    .text-lora,
+    .text-parceiros,
+    .text-alimentos,
+    .text-horus,
+    .text-brasilid,
+    .text-trabalhe,
+    .text-rfid {
+        margin-top: 110px !important;
+    }
+    .title-solucao,
+    .title-evolucao{
+        display: none;
+    }
+    .header-responsive{
+        margin-top: 100px;
+    }
+
+    .section-evolucao{
+        margin-top: 100px;
+    }
 
 }
 
@@ -1649,7 +1703,7 @@ strong {
     }
 
     .custom-nav>.container {
-        width: 90%;
+        width: 85%;
     }
 
     .custom-nav .brand-logo {
