@@ -1408,6 +1408,16 @@ strong {
     left: 60px;
 }
 
+.email-msg{
+    position: fixed;
+    bottom: 160px;
+    right: 20px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    display:none;
+}
+
 .grafico-vertical-horus,
 .grafico-vertical-rfid,
 .grafico-vertical,

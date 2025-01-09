@@ -303,11 +303,18 @@ function validateForm(event) {
     })
     .then(response => response.json())
     .then(data => {
-        console.log('Resposta da API:', data);
-        alert('Formulário enviado com sucesso!');
+        const successAlert = document.getElementById('successAlert');
+        successAlert.style.display = 'block';
+        setTimeout(() => {
+            successAlert.style.display = 'none';
+        }, 5500);
     })
     .catch(error => {
-        console.error('Erro ao enviar os dados:', error);
+        const failAlert = document.getElementById('failAlert');
+        failAlert.style.display = 'block';
+        setTimeout(() => {
+            failAlert.style.display = 'none';
+        }, 5500);
     });
 }
 
